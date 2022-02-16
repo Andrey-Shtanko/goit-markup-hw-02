@@ -3,3 +3,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
 }
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.page-nav-list .link {
+  color: var(--title-text-color);
+}

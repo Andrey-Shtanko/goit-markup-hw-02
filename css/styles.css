@@ -2,14 +2,45 @@
   --accent-color: #2196f3;
   --primary-text-color: #757575;
   --title-text-color: #212121;
+  --primary-background: #fff;
 }
 body {
-  background-color: #fff;
+  background-color: var(--primary-background);
   color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 .page-nav-list .link {
+  color: var(--title-text-color);
+}
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.page-nav-list .link:hover,
+.page-nav-list .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #fff;
+}
+footer {
+  background-color: #2f303a;
+}
+.page-address {
+  color: #fff;
+}
+.page-address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link {
+  text-decoration: none;
+}
+.title {
   color: var(--title-text-color);
 }

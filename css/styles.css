@@ -3,6 +3,8 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --primary-background: #fff;
+  --button-bgc: #f5f4fa;
+  --hover-text: #fff;
 }
 body {
   background-color: var(--primary-background);
@@ -13,6 +15,9 @@ body {
 }
 .page-nav-list .link {
   color: var(--title-text-color);
+}
+.page-nav-list .link.current {
+  color: var(--accent-color);
 }
 .contacts .link {
   color: var(--primary-text-color);
@@ -43,4 +48,17 @@ footer {
 }
 .title {
   color: var(--title-text-color);
+}
+.portfolio .button {
+  background-color: var(--button-bgc);
+  color: var(--title-text-color);
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+  background-color: var(--accent-color);
+  color: var(--hover-text);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--hover-text);
 }

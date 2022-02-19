@@ -105,7 +105,6 @@ body {
   text-transform: uppercase;
 }
 .advantages .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -127,7 +126,6 @@ body {
   text-align: center;
 }
 .team-list .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -177,7 +175,6 @@ footer .second-part-logo {
   letter-spacing: 0.06em;
 }
 .portfolio .description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87x;
 }

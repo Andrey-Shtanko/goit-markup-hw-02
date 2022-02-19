@@ -95,6 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--hover-text);
+  cursor: pointer;
 }
 /* преимущества */
 .advantages .title {
@@ -162,6 +163,7 @@ footer .second-part-logo {
   text-align: center;
   background-color: var(--button-bgc);
   color: var(--title-text-color);
+  cursor: pointer;
 }
 .portfolio .button:hover,
 .portfolio .button:focus {
